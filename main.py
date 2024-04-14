@@ -43,7 +43,7 @@ try:
             sky_conditions = [dict["weather"][0]["main"] for dict in filtered_data]
             # the above line will access the weather dict at [0], without [0]
             # you get Typeerror: slices not strings error
-            image_paths = [images[penis]for penis in sky_conditions]
+            image_paths = [images[nails]for nails in sky_conditions]
             # above line will create a list of the image paths that relate to
             # the sky_conditions key words of eg. sunny, rain, cloudy etc.
             # this is what is known as data translation
